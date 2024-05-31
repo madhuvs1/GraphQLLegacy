@@ -1,0 +1,56 @@
+query {
+  menu(menuId: 1) { id name description price}
+}
+or 
+query MyQuery($menuId:Int) {
+  menu(menuId: $menuId) { id name description price}
+}
+variables:
+{
+  "menuId": 1
+}
+--------------
+query {
+  menus {id name description price}
+}
+---------------
+query MyQuery($menuId:Int) {
+  menuone: menu(menuId: $menuId) { id name description price}
+  menutwo: menus {id name description price}
+}
+----------------
+mutation createMenu($menu: MenuInputType)  {
+  createMenu(menu: $menu){
+    id name description price
+  }
+}
+{
+  "menu": {
+    "id": 6, "name": "Chai", "description": "chai refreshes mind and body", "price": 4.5
+  }
+}
+----------------
+mutation UpdateMenu($menuId: Int,  $menu: MenuInputType) {
+  updateMenu(menuId: $menuId, menu: $menu){
+    id name description price
+  }
+}
+variables:
+{
+  "menuId": 5,
+  "menu":  {
+        "id": 6,
+        "name": "chai",
+        "description": "refreshes mind and body",
+        "price": 4.6
+      }
+}
+----------------
+mutation deleteMenu($menuId: Int) {
+  deleteMenu(menuId:$menuId)
+}
+variables
+{
+  "menuId": 5
+}
+------------------

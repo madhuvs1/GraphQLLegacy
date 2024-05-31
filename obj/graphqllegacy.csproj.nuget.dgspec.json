@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Workspace\\Preparation\\graphqllegacy\\graphqllegacy.csproj": {}
+  },
+  "projects": {
+    "C:\\Workspace\\Preparation\\graphqllegacy\\graphqllegacy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Workspace\\Preparation\\graphqllegacy\\graphqllegacy.csproj",
+        "projectName": "graphqllegacy",
+        "projectPath": "C:\\Workspace\\Preparation\\graphqllegacy\\graphqllegacy.csproj",
+        "packagesPath": "C:\\Users\\Madhu_VedhagiriSubra\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Preparation\\graphqllegacy\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Madhu_VedhagiriSubra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifacts.dell.com/artifactory/api/nuget/dicosv-1004054-nuget-prd-local": {},
+          "https://artifacts.dell.com/artifactory/api/nuget/v3/diazsv-1004053-nuget-dev-local/": {},
+          "https://dcsartifacts.dell.com/artifactory/api/nuget/nuget-local": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "graphiql": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "graphql.server.transports.aspnetcore": {
+              "target": "Package",
+              "version": "[7.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

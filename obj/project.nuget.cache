@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "4E30CtFwVEJ8SzZQ3FhqKmeedeEFN5gGdG5udKlisj4ot7KHD1KWYJ0l5TyktNfB9pMLi4/6crI6wtcF29oz8g==",
+  "success": true,
+  "projectFilePath": "C:\\Workspace\\Preparation\\graphqllegacy\\graphqllegacy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Madhu_VedhagiriSubra\\.nuget\\packages\\graphiql\\2.0.0\\graphiql.2.0.0.nupkg.sha512",
+    "C:\\Users\\Madhu_VedhagiriSubra\\.nuget\\packages\\graphql\\7.6.0\\graphql.7.6.0.nupkg.sha512",
+    "C:\\Users\\Madhu_VedhagiriSubra\\.nuget\\packages\\graphql-parser\\8.4.0\\graphql-parser.8.4.0.nupkg.sha512",
+    "C:\\Users\\Madhu_VedhagiriSubra\\.nuget\\packages\\graphql.microsoftdi\\7.6.0\\graphql.microsoftdi.7.6.0.nupkg.sha512",
+    "C:\\Users\\Madhu_VedhagiriSubra\\.nuget\\packages\\graphql.server.transports.aspnetcore\\7.7.1\\graphql.server.transports.aspnetcore.7.7.1.nupkg.sha512",
+    "C:\\Users\\Madhu_VedhagiriSubra\\.nuget\\packages\\graphql.systemtextjson\\7.6.0\\graphql.systemtextjson.7.6.0.nupkg.sha512",
+    "C:\\Users\\Madhu_VedhagiriSubra\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\Madhu_VedhagiriSubra\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.1\\microsoft.extensions.fileproviders.abstractions.3.1.1.nupkg.sha512",
+    "C:\\Users\\Madhu_VedhagiriSubra\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\3.1.1\\microsoft.extensions.fileproviders.embedded.3.1.1.nupkg.sha512",
+    "C:\\Users\\Madhu_VedhagiriSubra\\.nuget\\packages\\microsoft.extensions.options\\2.0.0\\microsoft.extensions.options.2.0.0.nupkg.sha512",
+    "C:\\Users\\Madhu_VedhagiriSubra\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.1\\microsoft.extensions.primitives.3.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
