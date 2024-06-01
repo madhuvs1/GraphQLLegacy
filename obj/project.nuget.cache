@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uyaGwfaNgnkvLeKS3zyP/PzscI/k8dP8hZVsYgff4AnZE/y1Nx9kUujljTpNvYixBd0ZcqjW+3G6V/LQZ6/lQQ==",
+  "dgSpecHash": "Q4upqF9DiM2+liT7ttHEt+7UhvhXTWw/rKX+AT3AlZth8jyXWelK0pHJR8oi31ALgauo+VxydIVtiKY+d1HBpw==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\Preparation\\graphqllegacy\\graphqllegacy.csproj",
+  "projectFilePath": "C:\\Workspace\\Preparation\\GraphQLLegacy\\graphqllegacy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Madhu_VedhagiriSubra\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Madhu_VedhagiriSubra\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -6,7 +6,9 @@ public class GraphQLDbContext: DbContext {
     {
         
     }
+    public DbSet<Category> Categories {get;set;}
     public DbSet<Menu> Menus {get;set;}
+    public DbSet<Reservation> Reservations {get;set;}
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

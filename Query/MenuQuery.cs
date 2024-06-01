@@ -12,6 +12,5 @@ public class MenuQuery : ObjectGraphType
             return menuRepository.GetMenuById(context.GetArgument<int>("menuId"));
         }
          );
-
     }
 }

@@ -7,6 +7,8 @@ public MenuInputType()
     Field<StringGraphType>("name");
     Field<StringGraphType>("description");
     Field<FloatGraphType>("price");
+    Field<StringGraphType>("imageUrl");
+    Field<IntGraphType>("categoryId");
 
 }
 }

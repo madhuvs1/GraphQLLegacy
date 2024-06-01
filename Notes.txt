@@ -59,6 +59,3 @@ add-migration InitialCreate (creates classes for code to db schema migration)
 update-database 
 Add-Migration SeedMenusTable (seeds data configured in OnModelCreating)
 update-database 
----
-SqlLite DB: //"GraphQLDbContextConnection": "Data Source=GraphQLDb.db"
-// "GraphQLDbContextConnection": "Data Source=RestaurantDb.db"

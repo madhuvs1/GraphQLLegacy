@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\Preparation\\graphqllegacy\\graphqllegacy.csproj": {}
+    "C:\\Workspace\\Preparation\\GraphQLLegacy\\graphqllegacy.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\Preparation\\graphqllegacy\\graphqllegacy.csproj": {
+    "C:\\Workspace\\Preparation\\GraphQLLegacy\\graphqllegacy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\Preparation\\graphqllegacy\\graphqllegacy.csproj",
+        "projectUniqueName": "C:\\Workspace\\Preparation\\GraphQLLegacy\\graphqllegacy.csproj",
         "projectName": "graphqllegacy",
-        "projectPath": "C:\\Workspace\\Preparation\\graphqllegacy\\graphqllegacy.csproj",
+        "projectPath": "C:\\Workspace\\Preparation\\GraphQLLegacy\\graphqllegacy.csproj",
         "packagesPath": "C:\\Users\\Madhu_VedhagiriSubra\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\Preparation\\graphqllegacy\\obj\\",
+        "outputPath": "C:\\Workspace\\Preparation\\GraphQLLegacy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Madhu_VedhagiriSubra\\AppData\\Roaming\\NuGet\\NuGet.Config",
