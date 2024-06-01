@@ -54,7 +54,7 @@ variables
   "menuId": 5
 }
 ------------------
-Entity Framework data seeding (entityframework tools design packages are required)
+Entity Framework DATA SEEDING (entityframework tools design packages are required)
 add-migration InitialCreate (creates classes for code to db schema migration)
 update-database 
 Add-Migration SeedMenusTable (seeds data configured in OnModelCreating)

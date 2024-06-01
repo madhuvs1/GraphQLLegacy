@@ -13,8 +13,14 @@ public class ReservationRepository : IReservationRepository
         return reservation;
     }
 
+    
     public List<Reservation> GetReservations()
     {
         return _graphQLDbContext.Reservations.ToList();
+    }
+
+    public Reservation GetReservation(int reservationId){
+        return _graphQLDbContext.Reservations.Find(reservationId);
+
     }
 }

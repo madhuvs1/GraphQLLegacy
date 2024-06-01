@@ -1,14 +1,15 @@
 using GraphQL.Types;
 
-public class MenuInputType: InputObjectGraphType {
-public MenuInputType()
+public class MenuInputType : InputObjectGraphType
 {
-    Field<IntGraphType>("id");
-    Field<StringGraphType>("name");
-    Field<StringGraphType>("description");
-    Field<FloatGraphType>("price");
-    Field<StringGraphType>("imageUrl");
-    Field<IntGraphType>("categoryId");
+    public MenuInputType()
+    {
+        Field<IntGraphType>("id");
+        Field<StringGraphType>("name");
+        Field<StringGraphType>("description");
+        Field<FloatGraphType>("price");
+        Field<StringGraphType>("imageUrl");
+        Field<IntGraphType>("categoryId");
 
-}
+    }
 }

@@ -97,9 +97,10 @@ C:\Workspace\Preparation\graphqllegacy\obj\Debug\net7.0\staticwebassets.pack.jso
 C:\Workspace\Preparation\graphqllegacy\obj\Debug\net7.0\staticwebassets.build.json
 C:\Workspace\Preparation\graphqllegacy\obj\Debug\net7.0\staticwebassets.development.json
 C:\Workspace\Preparation\graphqllegacy\obj\Debug\net7.0\scopedcss\bundle\graphqllegacy.styles.css
-C:\Workspace\Preparation\graphqllegacy\obj\Debug\net7.0\graphqllegacy.csproj.CopyComplete
 C:\Workspace\Preparation\graphqllegacy\obj\Debug\net7.0\graphqllegacy.dll
 C:\Workspace\Preparation\graphqllegacy\obj\Debug\net7.0\refint\graphqllegacy.dll
 C:\Workspace\Preparation\graphqllegacy\obj\Debug\net7.0\graphqllegacy.pdb
 C:\Workspace\Preparation\graphqllegacy\obj\Debug\net7.0\graphqllegacy.genruntimeconfig.cache
 C:\Workspace\Preparation\graphqllegacy\obj\Debug\net7.0\ref\graphqllegacy.dll
+C:\Workspace\Preparation\GraphQLLegacy\obj\Debug\net7.0\graphqllegacy.sourcelink.json
+C:\Workspace\Preparation\GraphQLLegacy\obj\Debug\net7.0\graphqll.8B0506CC.Up2Date
