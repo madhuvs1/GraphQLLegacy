@@ -85,3 +85,31 @@ Variables:
 {
  "menu": {"id": 4, "name": "Chicken Tikka masala", "description": "Chicken Tikka malasa spicy flavored", "price": 10.99, "categoryId": 4 } 
 }
+-------------
+query {
+  menuQuery {
+    menus {id name description price }
+  }
+}
+------------
+query rootQuery($menuId: Int) {
+  menuQuery {
+    menu(menuId: $menuId) {id name description price }
+  }
+}
+Variables:
+{
+  "menuId": 1
+}
+---------------
+mutation reservationMutation($reservation: ReservationInputType) {
+  reservationMutation {
+    addReservation(reservation: $reservation)
+    {id customerName email phoneNumber partySize specialRequest reservationDate}
+  }
+}
+variables:
+{
+  "reservation":  { "customerName": "John", "email": "john@gmail.com",   "phoneNumber": "8018018010", "partySize": 10, "specialRequest": "bottled water", "reservationDate": "2024-01-01T00:00:00" }
+}
+--------------

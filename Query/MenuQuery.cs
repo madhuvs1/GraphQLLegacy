@@ -5,7 +5,8 @@ public class MenuQuery : ObjectGraphType
 {
     public MenuQuery(IMenuRepository menuRepository)
     {
-        Field<ListGraphType<MenuType>>("Menus").Resolve(context => {return menuRepository.GetAllMenu();});
+        Console.WriteLine("MenuQuery constructor called");
+        Field<ListGraphType<MenuType>>("Menus").Resolve(context => { return menuRepository.GetAllMenu();} );
         Field<MenuType>("Menu").Arguments(new QueryArguments(new QueryArgument<IntGraphType> { Name = "menuId" })).
         Resolve(context =>
         {
